@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Text>Command RAB_Session01_Challenge</Text>
-    <Description>Some description for RAB_Session01_Challenge</Description>
+    <Text>Fizz Buzz</Text>
+    <Description>Solution to Fizz Buzz challenge</Description>
     <Assembly>RAB_Session01_Challenge.dll</Assembly>
-    <FullClassName>RAB_Session01_Challenge.Command</FullClassName>
+    <FullClassName>RAB_Session01_Challenge.cmdFizzBuzz</FullClassName>
     <ClientId>03c63f6f-4ec1-4367-8f94-9e24a02bd72e</ClientId>
     <VendorId>com.typepad.thebuildingcoder</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
