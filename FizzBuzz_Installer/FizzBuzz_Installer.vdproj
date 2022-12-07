@@ -2014,12 +2014,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_721BE20CF97E44893648AEE44A91BD77"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_AA7554A30405492797D7D03518E73257"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2371,6 +2365,12 @@
         "OwnerKey" = "8:_2D430149779B094C2CA83E2D7C19FF7F"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_721BE20CF97E44893648AEE44A91BD77"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -2389,6 +2389,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -2405,6 +2413,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -4371,20 +4387,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:FizzBuzz_Installer"
-        "ProductCode" = "8:{76037BDF-109B-4723-B6EF-3C61F8A9F8D4}"
-        "PackageCode" = "8:{85F6A1A4-0A2B-4E0B-9D69-5A01CDBCC304}"
+        "ProductName" = "8:FizzBuzz"
+        "ProductCode" = "8:{5E73FBB6-799C-4661-8F2A-F3CA9306CF97}"
+        "PackageCode" = "8:{76FDFF01-8E32-47F4-855D-A67585D26FC4}"
         "UpgradeCode" = "8:{24376AD2-C3BD-46E3-BEE0-AE21A9FBFB68}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.7.0"
+        "ProductVersion" = "8:0.8.0"
         "Manufacturer" = "8:T Edward Coder"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:FizzBuzz Installer"
+        "Title" = "8:FizzBuzz"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Tom E Flaherty"
         "Keywords" = "8:"
