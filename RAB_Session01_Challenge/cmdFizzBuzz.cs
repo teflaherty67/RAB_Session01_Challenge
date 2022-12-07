@@ -28,14 +28,26 @@ namespace RAB_Session01_Challenge
             // set the variables
             int range = 100;
             XYZ insPoint = new XYZ(0, 0, 0);
-            double offsetValue = 0.05;
-            double calcOffset = offsetValue * doc.ActiveView.Scale;
-            XYZ offset = new XYZ(0, calcOffset, 0);
+            
             string result = "";
 
             // create filtered element collector
             FilteredElementCollector collector = new FilteredElementCollector(doc);
             collector.OfClass(typeof(TextNoteType));
+
+            Element curTextNoteType = collector.FirstElement();
+
+            double offsetValue = 0.05;
+            foreach (Parameter curParam in curTextNoteType.Parameters)
+            {
+                if(curParam.Definition.Name == "Text Size")
+                {
+                    offsetValue = 1.5 * curParam.AsDouble();
+                }
+            }
+
+            double calcOffset = offsetValue * doc.ActiveView.Scale;
+            XYZ offset = new XYZ(0, calcOffset, 0);
 
             // create the transaction
             Transaction t = new Transaction(doc);
